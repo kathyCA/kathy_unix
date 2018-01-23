@@ -1,0 +1,46 @@
+hi,this is my first unix programming lab and
+this is my  first session
+vim modes
+insert mode(where you can just type like normal text editor.press i for insert mode)
+command mode(where you give the commands to the editor to get the things done.press ESC for the command mode)
+most of them below are in command mode
+x-to delete the unwanted character
+u-to undo the last the command and U to undo the whole line
+CTRL-R to redo
+A- to append text at the end
+:wq-to save and exit
+:q|-to thrash all changes
+dw-move the cursor to the beginning of the word to delete that word
+2w-to move the cursor two words forward
+3e-to move the cursor to tbe end of the 3rd word forward
+0-to move to the start of the line
+d2w- which delete 2 word ...number can be change for deleting the number
+dd- to delete the line and 2 dd.number can be changed for deleting the numbers of consecutive words
+p-puts the previously deleted text after the curso
+r-to replace the letter 
+ce- delete the word and places you in insert mode
+G-to move you to the bottom of tghe file
+gg-to move u start of the file
+%-to find the matching
+:s/old/new/g-tom substitute new for old where g is globally
+?-forward search
+/-backward search n to end the next occurence and N to search in opposite direction
+:|- to run the shell command
+:w-test save the file
+v-start visual mode for selecting the line and you can perform operations on that like d delete
+:r-file name will insert the content into the current file 
+R- to replace more than one character
+y-operator to copy text using v visual mode and p to paste it
+yw-copy yanks one word
+O-opens the line below the cursor and start insert mode
+a-inserts texts after the cursor
+A-inserts the texts after the end of the line
+e-commands moves to the end of the word
+y-operat yanks texts p puts it
+R-enters replace mode until<ESC> is pressed
+ctrl-w to jump from one window to another
+the format for a change command is;operator[number]motion
+-operator-is what to do,such as d for delete
+-[number]-is an optional count to repeat the motion
+-motion- moves over the text to operateon,such as w(word)
+$(to the end of the line),etc
